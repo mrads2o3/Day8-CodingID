@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>P_Login</name>
+   <name>PKJ01_P_Tambah produk ke keranjang</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bf0452ec-e448-46c1-b199-eb9863b583bd</testCaseGuid>
+   <testCaseGuid>9cd76868-5bf6-4d3b-93ed-985584a66ed3</testCaseGuid>
 </TestCaseEntity>

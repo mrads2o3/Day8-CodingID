@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\pooyu\\Downloads\\Android-MyDemoAppRN.1.2.0.build-231.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Home_Button_BreadCrumb - android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Home_Button_Hamburger Menu - android.view.ViewGroup'), 0)
 
 Mobile.tap(findTestObject('Object Repository/SideBar_Button_Log In - android.widget.TextView - Log In'), 0)
 
@@ -33,6 +33,17 @@ Mobile.tap(findTestObject('Object Repository/Login_Button_Login - android.widget
 
 Mobile.verifyElementNotVisible(findTestObject('Login_ErrorMesssage - android.widget.TextView - Provided credentials do not match any user in this service'), 
     0)
+
+Mobile.tap(findTestObject('Object Repository/Home_Button_Hamburger Menu - android.view.ViewGroup'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SideBar_Button_Log Out - android.widget.TextView - Log Out'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Logout_ConfirmMessage - android.widget.Button - LOG OUT'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Logout_SuccessMessage - android.widget.TextView - You are successfully logged out'), 
+    'You are successfully logged out.')
+
+Mobile.tap(findTestObject('Object Repository/Logout_SuccessMessage_ConfirmButton - android.widget.Button - OK'), 0)
 
 Mobile.closeApplication()
 

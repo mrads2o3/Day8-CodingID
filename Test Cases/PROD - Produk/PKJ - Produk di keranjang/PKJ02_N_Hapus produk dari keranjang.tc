@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>N_Login</name>
+   <name>PKJ02_N_Hapus produk dari keranjang</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f09658f5-7967-4cde-96d2-1fbcd1a5b52c</testCaseGuid>
+   <testCaseGuid>7049450f-319d-4a39-a9e8-9567eed029b5</testCaseGuid>
 </TestCaseEntity>
